@@ -36,10 +36,8 @@ const ServicesCardsSection = () => {
             key={index}
             className="group relative flex flex-col justify-between overflow-hidden rounded-lg bg-white shadow-md"
           >
-            {/* Background hover effect */}
             <div className="absolute inset-0 bg-blue-500 translate-y-full group-hover:translate-y-0 transition-all duration-500 ease-in-out z-0" />
 
-            {/* Content */}
             <div className="relative z-10 p-8 text-center">
               <svg
                 className="w-12 h-12 text-blue-500 group-hover:text-white transition-colors duration-300 mx-auto"
@@ -58,7 +56,6 @@ const ServicesCardsSection = () => {
               </p>
             </div>
 
-            {/* Bottom blue border */}
             <div className="w-full h-[3px] bg-blue-500 group-hover:bg-white transition-colors duration-300" />
           </div>
         ))}

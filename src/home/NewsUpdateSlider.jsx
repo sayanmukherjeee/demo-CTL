@@ -86,26 +86,21 @@ const NewsUpdateSlider = () => {
           </p>
         </div>
 
-        {/* Slider */}
         <Slider {...settings}>
           {cards.map((card, index) => (
             <div key={index} className="px-3">
               <div className="bg-white shadow-md rounded-lg overflow-hidden group">
-                {/* Image */}
                 <div className="relative overflow-hidden">
                   <img
                     src={card.image}
                     alt={card.title}
                     className="w-full h-60 object-cover transform transition duration-700 ease-in-out group-hover:scale-110"
                   />
-                  {/* Blue overlay */}
                   <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-30 transition-all duration-500" />
-                  {/* Badge */}
                   <span className="absolute top-4 left-4 bg-blue-500 text-white text-sm px-3 py-1 rounded cursor-pointer">
                     {card.category}
                   </span>
                 </div>
-                {/* Content */}
                 <div className="p-4">
                   <h3 className="text-lg font-bold text-gray-800 mb-2 hover:text-blue-500 transition">
                     {card.title}
@@ -114,7 +109,6 @@ const NewsUpdateSlider = () => {
                     {card.description}
                   </p>
                   <div className="flex items-center text-xs text-gray-400 space-x-2">
-                    {/* Human icon + Admin */}
                     <div className="flex items-center cursor-pointer space-x-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

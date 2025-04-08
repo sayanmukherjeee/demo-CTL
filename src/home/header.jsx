@@ -9,7 +9,6 @@ function Header() {
           <div className="container mx-auto px-4 py-4 flex flex-col items-center">
 
             <nav className="flex items-center space-x-6">
-              {/* Logo - Left aligned with extra margin */}
               <div className="text-2xl font-bold text-blue-600 mr-16">
                 Co<span className="text-gray-800">r</span>Pas
               </div>
@@ -41,7 +40,6 @@ function Header() {
                 </div>
               </div>
 
-              {/* About */}
               <div className="relative group">
                 <div className="flex items-center space-x-1 cursor-pointer">
                   <a
@@ -68,7 +66,6 @@ function Header() {
                 </div>
               </div>
 
-              {/* Page */}
               <div className="relative group">
                 <div className="flex items-center space-x-1 cursor-pointer">
                   <a
@@ -95,7 +92,6 @@ function Header() {
                 </div>
               </div>
 
-              {/* Gallery */}
               <div className="relative group">
                 <div className="flex items-center space-x-1 cursor-pointer">
                   <a
@@ -122,7 +118,6 @@ function Header() {
                 </div>
               </div>
 
-              {/* Blog */}
               <div className="relative group">
                 <div className="flex items-center space-x-1 cursor-pointer">
                   <a
@@ -149,7 +144,6 @@ function Header() {
                 </div>
               </div>
 
-              {/* Contact */}
               <div className="relative group">
                 <div className="flex items-center space-x-1 cursor-pointer">
                   <a
@@ -176,7 +170,6 @@ function Header() {
                 </div>
               </div>
 
-              {/* Get a Support button */}
               <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800 transition-colors duration-300">
                 Get a Support
               </button>

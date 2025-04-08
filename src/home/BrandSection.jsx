@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Replace these with your actual image file names, placed in public/img folder
 const brandLogos = [
   "/images/brand1.png",
   "/images/brand2.png",

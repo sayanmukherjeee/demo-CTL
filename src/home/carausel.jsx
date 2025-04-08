@@ -9,7 +9,6 @@ function Carousel() {
           "url('https://www.shutterstock.com/image-photo/group-colleagues-engaging-discussion-during-600nw-2461746317.jpg')",
       }}
     >
-      {/* Overlay for darkening the background if desired */}
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="container mx-auto px-4 py-24 relative z-10 flex items-center">
         <div className="max-w-2xl text-white">

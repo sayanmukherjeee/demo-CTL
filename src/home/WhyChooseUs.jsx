@@ -13,7 +13,6 @@ const WhyChooseUs = () => {
 
   return (
     <div className="flex flex-col md:flex-row w-full min-h-[500px]">
-      {/* Left Section - Image + Overlay + Button */}
       <div className="relative md:w-1/2 w-full h-[400px] md:h-auto">
         <img
           src="/images/meeting.jpg"
@@ -35,7 +34,6 @@ const WhyChooseUs = () => {
         </button>
       </div>
 
-      {/* Right Section - Content */}
       <div className="bg-blue-500 text-white md:w-1/2 w-full px-8 py-10 flex flex-col justify-center">
         <p className="text-sm font-light mb-1">We are creative</p>
         <h2 className="text-3xl font-bold mb-6">Grow Your Business Grow</h2>
@@ -70,7 +68,6 @@ const WhyChooseUs = () => {
           </div>
         </div>
 
-        {/* Social Icons */}
         <div className="mt-8">
           <p className="font-bold mb-2">Follow Us:</p>
           <div className="flex gap-2">
